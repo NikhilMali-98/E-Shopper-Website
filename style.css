@@ -1,0 +1,29 @@
+.header { padding: 10;}
+.header a{color: #aaa; text-transform: uppercase; }
+/* hexadecimal we can use 0-9 a-f charactors */
+.header a:hover { color: rgb(206, 8, 163);}
+/* header created for home, login, register change colour when tab */
+.footer { background-color: black; height: 250px; color: #fff; }
+.footer a{ color: #fff;}
+.footer a{ color: #fff; padding-left: 0;}
+/* media querry */
+@media screen and (max-width:576px)
+ { 
+    body{
+        /* border: solid; */
+        /* width: 100%; */
+    }
+    .logo{
+            width: 100%;
+            /* border: solid; */
+            text-align: center;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px)
+ { 
+    body{
+        border: solid red;
+    }
+}
